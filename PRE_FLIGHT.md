@@ -13,8 +13,8 @@ If anything below fails, reply to the invite and we'll sort it out before the da
 ### 1. VS Code installed
 Current version. Download: https://code.visualstudio.com/
 
-### 2. GitHub Copilot - installed AND licensed
-- Install the **GitHub Copilot** and **GitHub Copilot Chat** extensions in VS Code.
+### 2. GitHub Copilot - enabled AND licensed
+- Recent versions of VS Code include **GitHub Copilot and Copilot Chat built-in** - just make sure VS Code is up to date and you likely won't need to install anything. (On older VS Code, install the **GitHub Copilot Chat** extension from the Extensions panel.)
 - Sign in with a GitHub account that has an **active Copilot license**.
 - ⚠️ Most common silent failure: the seat was *requested* but never *assigned*. Confirm Copilot actually works (Step 6 below), don't assume.
 
