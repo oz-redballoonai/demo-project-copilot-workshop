@@ -179,6 +179,8 @@ Based on #file:.github/skills/firmware-unit-test/SKILL.md, what are the three te
 
 This is how skills encode expertise so you don't re-prompt every time.
 
+> **Going further:** these skills are just markdown files  -  you can author your own with `/skill-creator`. We don't cover skill-authoring today, but that's the natural next step.
+
 ---
 
 > **Extension:** Try `/comm-port-board-validation`  -  same skill pattern, different domain. Generates a bring-up checklist for hardware interface validation.
@@ -218,6 +220,8 @@ Report the final verdict with justification.
 ```
 
 Watch the handoffs: Read → Firmware Review → Spec Validation → Test Generation → Gated Verdict.
+
+> **Going further:** the orchestrator and its sub-agents are just `.agent.md` files you can write yourself  -  building your team's own review pipeline is a deeper topic for another session.
 
 **If not available**  -  discuss as a group:
 - Module 3 triage output: how long did it take?
